@@ -7,18 +7,15 @@ export function App (){
         <section className="App">
             <TwitterFollowCard 
                 formatUsername={format}
-                userName={"midudev"} 
-                name={"Miguel Angel Duran"} />
+                userName={"midudev"}> Miguel Angel Duran</TwitterFollowCard>
 
             <TwitterFollowCard 
                 formatUsername={format}
-                isFollowing userName={"natalia"} 
-                name={"Natalia Moncaleano Montero"} />
+                isFollowing userName={"natalia"}> Natalia Moncaleano Montero </TwitterFollowCard>
 
             <TwitterFollowCard 
                 formatUsername={format}
-                userName={"dalasReview"} 
-                name={"Dalas"} />
+                userName={"dalasReview"}> Dalas</TwitterFollowCard>
         </section>
     )
 }
